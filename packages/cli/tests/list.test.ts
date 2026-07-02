@@ -78,6 +78,22 @@ describe("runList", () => {
     expect(output).toContain("Run: free-design-md add <slug>");
   });
 
+  it("uses the public catalog index by default", async () => {
+    const spy = mockFetchCatalog(sampleCatalog);
+
+    await runList({
+      host: undefined,
+      category: undefined,
+      search: undefined,
+      json: false,
+    });
+
+    expect(spy).toHaveBeenCalledWith(
+      "https://raw.githubusercontent.com/zuchka/free-design-md-catalog/main/catalog/index.json",
+      expect.anything(),
+    );
+  });
+
   it("filters by category and search", async () => {
     mockFetchCatalog(sampleCatalog);
 

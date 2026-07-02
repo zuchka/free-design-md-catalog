@@ -1,4 +1,4 @@
-import { resolveHost } from "./config.js";
+import { resolveHostOverride } from "./config.js";
 import { fetchCatalog } from "./fetch-catalog.js";
 import type { CatalogDesignSummary } from "./types.js";
 
@@ -24,7 +24,7 @@ export async function runList(
   opts: ListOptions,
   renderOpts: ListRenderOptions = {},
 ): Promise<string> {
-  const host = resolveHost(opts.host);
+  const host = resolveHostOverride(opts.host);
   const catalog = await fetchCatalog(host);
   const filtered = filterCatalog(catalog, opts);
 

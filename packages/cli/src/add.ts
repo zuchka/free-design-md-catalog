@@ -2,7 +2,7 @@ import { access, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fetchDesign } from "./fetch-design.js";
 import { parseId } from "./parse-id.js";
-import { resolveHost } from "./config.js";
+import { resolveHostOverride } from "./config.js";
 
 export interface AddOptions {
   idOrUrl: string;
@@ -18,7 +18,7 @@ export interface AddResult {
 
 export async function runAdd(opts: AddOptions): Promise<AddResult> {
   const id = parseId(opts.idOrUrl);
-  const host = resolveHost(opts.host);
+  const host = resolveHostOverride(opts.host);
   const design = await fetchDesign(host, id);
   const out = resolve(opts.out ?? defaultOutputFilename(design.id));
 

@@ -14,6 +14,7 @@ export interface CatalogDesignSummary {
   description: string;
   bestFor: string;
   hasArtifact: boolean;
+  designMdPath?: string;
 }
 
 export interface CatalogDesignListResponse {

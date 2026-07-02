@@ -154,6 +154,68 @@ describe("runAdd", () => {
     );
   });
 
+  it("falls back to the public catalog for slugs when no host is overridden", async () => {
+    const spy = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ error: "not found" }), {
+          status: 404,
+        }),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            count: 1,
+            categories: ["Fintech & Crypto"],
+            designs: [
+              {
+                slug: "stripe",
+                aliases: [],
+                title: "Stripe",
+                sourceUrl: "https://stripe.com",
+                category: "Fintech & Crypto",
+                description: "Payment infrastructure.",
+                bestFor: "Fintech onboarding.",
+                designMdPath: "catalog/stripe/design.md",
+              },
+            ],
+          }),
+          { status: 200 },
+        ),
+      )
+      .mockResolvedValueOnce(
+        new Response("---\nname: Stripe\n---\n\n## Overview\n", {
+          status: 200,
+          headers: { "Content-Type": "text/markdown" },
+        }),
+      );
+
+    const result = await runAdd({
+      idOrUrl: "stripe",
+      out: join(dir, "stripe.md"),
+      host: undefined,
+      force: false,
+    });
+
+    expect(result.id).toBe("stripe");
+    expect(await readFile(result.path, "utf8")).toContain("name: Stripe");
+    expect(spy).toHaveBeenNthCalledWith(
+      1,
+      "https://freedesign.md/api/saved-enrichments/stripe",
+      expect.anything(),
+    );
+    expect(spy).toHaveBeenNthCalledWith(
+      2,
+      "https://raw.githubusercontent.com/zuchka/free-design-md-catalog/main/catalog/index.json",
+      expect.anything(),
+    );
+    expect(spy).toHaveBeenNthCalledWith(
+      3,
+      "https://raw.githubusercontent.com/zuchka/free-design-md-catalog/main/catalog/stripe/design.md",
+      expect.anything(),
+    );
+  });
+
   it("uses the returned catalog id for the default filename", async () => {
     vi.spyOn(globalThis, "fetch")
       .mockResolvedValueOnce(

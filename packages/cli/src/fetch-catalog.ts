@@ -1,9 +1,12 @@
 import type { CatalogDesignListResponse } from "./types.js";
+import { PUBLIC_CATALOG_BASE } from "./config.js";
 
 export async function fetchCatalog(
-  host: string,
+  host: string | undefined,
 ): Promise<CatalogDesignListResponse> {
-  const url = `${host}/api/catalog-designs`;
+  const url = host
+    ? `${host}/api/catalog-designs`
+    : `${PUBLIC_CATALOG_BASE}/catalog/index.json`;
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 30_000);
 
@@ -26,14 +29,23 @@ export async function fetchCatalog(
       throw new Error("Unexpected response shape from catalog endpoint.");
     }
 
-    return {
-      count: json.count,
-      categories: json.categories,
-      designs: json.designs,
-    };
+    return normalizeCatalog(json);
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function normalizeCatalog(
+  json: Partial<CatalogDesignListResponse>,
+): CatalogDesignListResponse {
+  return {
+    count: json.count!,
+    categories: json.categories!,
+    designs: json.designs!.map((design) => ({
+      ...design,
+      hasArtifact: design.hasArtifact ?? Boolean(design.designMdPath),
+    })),
+  };
 }
 
 function isCatalogDesignSummary(value: unknown): boolean {
@@ -48,6 +60,7 @@ function isCatalogDesignSummary(value: unknown): boolean {
     typeof item.category === "string" &&
     typeof item.description === "string" &&
     typeof item.bestFor === "string" &&
-    typeof item.hasArtifact === "boolean"
+    (typeof item.hasArtifact === "boolean" ||
+      typeof item.designMdPath === "string")
   );
 }
