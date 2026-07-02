@@ -26,14 +26,17 @@ const rows = [
   }),
 ].join("\n");
 
-const next = readme.replace(
-  /<!-- catalog-list:start -->[\s\S]*?<!-- catalog-list:end -->/,
-  `<!-- catalog-list:start -->\n${rows}\n<!-- catalog-list:end -->`,
-);
+const markerPattern =
+  /<!-- catalog-list:start -->[\s\S]*?<!-- catalog-list:end -->/;
 
-if (next === readme) {
+if (!markerPattern.test(readme)) {
   throw new Error("README catalog markers not found.");
 }
+
+const next = readme.replace(
+  markerPattern,
+  `<!-- catalog-list:start -->\n${rows}\n<!-- catalog-list:end -->`,
+);
 
 await writeFile(readmeUrl, next, "utf8");
 console.log(`Updated README.md with ${index.count} catalog rows.`);
