@@ -1,0 +1,9 @@
+{
+  "slug": "stripe",
+  "aliases": [],
+  "title": "Stripe",
+  "sourceUrl": "https://stripe.com/",
+  "category": "Fintech & Crypto",
+  "description": "Payment infrastructure with crisp typography, restrained surfaces, and violet conversion moments.",
+  "bestFor": "API docs, fintech onboarding, checkout flows, and B2B SaaS."
+}

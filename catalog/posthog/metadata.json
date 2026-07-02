@@ -1,0 +1,9 @@
+{
+  "slug": "posthog",
+  "aliases": [],
+  "title": "PostHog",
+  "sourceUrl": "https://posthog.com/",
+  "category": "Backend, Database & DevOps",
+  "description": "Product analytics system with playful branding, developer-friendly surfaces, and dark UI moments.",
+  "bestFor": "Analytics products, devtools, product-led docs, and feature comparison pages."
+}

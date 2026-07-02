@@ -1,0 +1,9 @@
+{
+  "slug": "sentry",
+  "aliases": [],
+  "title": "Sentry",
+  "sourceUrl": "https://sentry.io/",
+  "category": "Backend, Database & DevOps",
+  "description": "Error monitoring system with dark dashboards, pink-purple accents, and data-dense observability UI.",
+  "bestFor": "Monitoring tools, observability dashboards, developer alerts, and incident workflows."
+}

@@ -1,0 +1,791 @@
+{
+  "count": 77,
+  "categories": [
+    "AI & LLM Platforms",
+    "Automotive",
+    "Backend, Database & DevOps",
+    "Design & Creative Tools",
+    "Developer Tools & IDEs",
+    "E-commerce & Retail",
+    "Fintech & Crypto",
+    "Local extras",
+    "Media & Consumer Tech",
+    "Productivity & SaaS",
+    "Retro Web",
+    "Tree-only upstream item"
+  ],
+  "designs": [
+    {
+      "slug": "airbnb",
+      "aliases": [],
+      "title": "Airbnb",
+      "sourceUrl": "https://www.airbnb.com/",
+      "category": "E-commerce & Retail",
+      "description": "Travel marketplace system with warm coral actions, photography-led cards, and rounded booking UI.",
+      "bestFor": "Marketplaces, booking flows, listing grids, and hospitality products.",
+      "designMdPath": "catalog/airbnb/design.md"
+    },
+    {
+      "slug": "airtable",
+      "aliases": [],
+      "title": "Airtable",
+      "sourceUrl": "https://www.airtable.com/",
+      "category": "Design & Creative Tools",
+      "description": "Structured-data product system with white editorial canvas and colorful workflow surfaces.",
+      "bestFor": "Database tools, workflow builders, spreadsheets, and ops platforms.",
+      "designMdPath": "catalog/airtable/design.md"
+    },
+    {
+      "slug": "apple",
+      "aliases": [],
+      "title": "Apple",
+      "sourceUrl": "https://www.apple.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Premium consumer-tech system with SF typography, cinematic product imagery, and generous white space.",
+      "bestFor": "Product launches, hardware pages, editorial commerce, and premium marketing.",
+      "designMdPath": "catalog/apple/design.md"
+    },
+    {
+      "slug": "binance",
+      "aliases": [],
+      "title": "Binance",
+      "sourceUrl": "https://www.binance.com/",
+      "category": "Fintech & Crypto",
+      "description": "Crypto exchange system with black-yellow contrast, trading status colors, and urgent transaction UI.",
+      "bestFor": "Trading apps, crypto dashboards, financial data views, and account flows.",
+      "designMdPath": "catalog/binance/design.md"
+    },
+    {
+      "slug": "bmw",
+      "aliases": [],
+      "title": "BMW",
+      "sourceUrl": "https://www.bmwusa.com/",
+      "category": "Automotive",
+      "description": "Luxury automotive system with austere surfaces, electric blue CTAs, and full-bleed vehicle imagery.",
+      "bestFor": "Automotive sites, premium product catalogs, configurators, and editorial launches.",
+      "designMdPath": "catalog/bmw/design.md"
+    },
+    {
+      "slug": "bmw-m",
+      "aliases": [],
+      "title": "BMW M",
+      "sourceUrl": "https://www.bmw-m.com/en/index.html",
+      "category": "Automotive",
+      "description": "Performance automotive system with motorsport imagery, near-black surfaces, and M tricolor accents.",
+      "bestFor": "Performance brands, motorsport pages, premium launches, and high-contrast galleries.",
+      "designMdPath": "catalog/bmw-m/design.md"
+    },
+    {
+      "slug": "bugatti",
+      "aliases": [],
+      "title": "Bugatti",
+      "sourceUrl": "https://www.bugatti.com/",
+      "category": "Automotive",
+      "description": "Hypercar system with monochrome austerity, cinematic photography, and monumental display type.",
+      "bestFor": "Luxury vehicles, rare product launches, editorial galleries, and prestige brands.",
+      "designMdPath": "catalog/bugatti/design.md"
+    },
+    {
+      "slug": "cal",
+      "aliases": [],
+      "title": "Cal.com",
+      "sourceUrl": "https://cal.com/",
+      "category": "Productivity & SaaS",
+      "description": "Scheduling system with clean neutral surfaces, black CTAs, and Cal Sans display hierarchy.",
+      "bestFor": "Scheduling products, booking flows, productivity tools, and calendar apps.",
+      "designMdPath": "catalog/cal/design.md"
+    },
+    {
+      "slug": "claude",
+      "aliases": [],
+      "title": "Claude",
+      "sourceUrl": "https://www.anthropic.com/claude",
+      "category": "AI & LLM Platforms",
+      "description": "AI assistant system with warm editorial surfaces, terracotta accents, and careful prose hierarchy.",
+      "bestFor": "AI products, research pages, assistant onboarding, and thoughtful SaaS brands.",
+      "designMdPath": "catalog/claude/design.md"
+    },
+    {
+      "slug": "clay",
+      "aliases": [],
+      "title": "Clay",
+      "sourceUrl": "https://www.clay.com/",
+      "category": "Design & Creative Tools",
+      "description": "GTM data system with bright art direction, rounded type, and saturated feature cards.",
+      "bestFor": "Growth tools, data enrichment, GTM platforms, and creative SaaS marketing.",
+      "designMdPath": "catalog/clay/design.md"
+    },
+    {
+      "slug": "clickhouse",
+      "aliases": [],
+      "title": "ClickHouse",
+      "sourceUrl": "https://clickhouse.com/",
+      "category": "Backend, Database & DevOps",
+      "description": "Analytics database system with black canvas, electric yellow accents, and code-heavy cards.",
+      "bestFor": "Database products, analytics infrastructure, documentation, and technical launches.",
+      "designMdPath": "catalog/clickhouse/design.md"
+    },
+    {
+      "slug": "cohere",
+      "aliases": [],
+      "title": "Cohere",
+      "sourceUrl": "https://cohere.com/",
+      "category": "AI & LLM Platforms",
+      "description": "Enterprise AI system with editorial white space, mineral surfaces, and data-rich product bands.",
+      "bestFor": "AI platforms, enterprise search, model pages, and research-to-product narratives.",
+      "designMdPath": "catalog/cohere/design.md"
+    },
+    {
+      "slug": "coinbase",
+      "aliases": [],
+      "title": "Coinbase",
+      "sourceUrl": "https://www.coinbase.com/",
+      "category": "Fintech & Crypto",
+      "description": "Crypto finance system with clean blue identity, institutional calm, and layered product cards.",
+      "bestFor": "Fintech apps, wallet flows, trading dashboards, and trusted onboarding.",
+      "designMdPath": "catalog/coinbase/design.md"
+    },
+    {
+      "slug": "composio",
+      "aliases": [],
+      "title": "Composio",
+      "sourceUrl": "https://composio.dev/",
+      "category": "Backend, Database & DevOps",
+      "description": "AI integration platform with dark technical surfaces, blue voltage, and terminal-style mockups.",
+      "bestFor": "Agent tooling, API integrations, developer dashboards, and docs pages.",
+      "designMdPath": "catalog/composio/design.md"
+    },
+    {
+      "slug": "cursor",
+      "aliases": [],
+      "title": "Cursor",
+      "sourceUrl": "https://cursor.com/",
+      "category": "Developer Tools & IDEs",
+      "description": "AI code editor system with warm editorial canvas, orange actions, and code timeline visuals.",
+      "bestFor": "IDE products, AI coding tools, developer workflows, and product demos.",
+      "designMdPath": "catalog/cursor/design.md"
+    },
+    {
+      "slug": "dell-1996",
+      "aliases": [],
+      "title": "Dell (1996)",
+      "sourceUrl": "https://web.archive.org/web/19961219154658/http://www.dell.com/",
+      "category": "Retro Web",
+      "description": "Catalog-era web system with black frames, flat ribbon cards, Times body copy, and GIF-era badges.",
+      "bestFor": "Retro UI, nostalgia projects, period-accurate web pages, and playful prototypes.",
+      "designMdPath": "catalog/dell-1996/design.md"
+    },
+    {
+      "slug": "elevenlabs",
+      "aliases": [],
+      "title": "ElevenLabs",
+      "sourceUrl": "https://elevenlabs.io/",
+      "category": "AI & LLM Platforms",
+      "description": "Voice AI system with off-white editorial surfaces, atmospheric gradients, and subtle black CTAs.",
+      "bestFor": "Audio tools, AI media products, creator platforms, and narrative landing pages.",
+      "designMdPath": "catalog/elevenlabs/design.md"
+    },
+    {
+      "slug": "expo",
+      "aliases": [],
+      "title": "Expo",
+      "sourceUrl": "https://expo.dev/",
+      "category": "Developer Tools & IDEs",
+      "description": "React Native platform system with white canvas, code surfaces, and device mockup hero moments.",
+      "bestFor": "Mobile developer tools, SDK docs, framework pages, and launch sites.",
+      "designMdPath": "catalog/expo/design.md"
+    },
+    {
+      "slug": "ferrari",
+      "aliases": [],
+      "title": "Ferrari",
+      "sourceUrl": "https://www.ferrari.com/",
+      "category": "Automotive",
+      "description": "Luxury automotive system with cinematic near-black surfaces, Rosso Corsa accents, and sparse CTAs.",
+      "bestFor": "Luxury launches, motorsport pages, product galleries, and premium editorial.",
+      "designMdPath": "catalog/ferrari/design.md"
+    },
+    {
+      "slug": "figma",
+      "aliases": [],
+      "title": "Figma",
+      "sourceUrl": "https://www.figma.com/",
+      "category": "Design & Creative Tools",
+      "description": "Collaborative design-tool system with vibrant brand colors, playful geometry, and product-led layouts.",
+      "bestFor": "Creative tools, collaboration apps, design systems, and product education.",
+      "designMdPath": "catalog/figma/design.md"
+    },
+    {
+      "slug": "framer",
+      "aliases": [],
+      "title": "Framer",
+      "sourceUrl": "https://www.framer.com/",
+      "category": "Design & Creative Tools",
+      "description": "Website-builder system with black canvas, blue accents, and motion-forward showcase panels.",
+      "bestFor": "Design tools, website builders, interactive demos, and launch pages.",
+      "designMdPath": "catalog/framer/design.md"
+    },
+    {
+      "slug": "github",
+      "aliases": [],
+      "title": "GitHub",
+      "sourceUrl": "https://github.com/features",
+      "category": "Local extras",
+      "description": "Developer platform system with dark code surfaces, Octicon-style UI, and collaboration patterns.",
+      "bestFor": "Developer workflows, repositories, code review, and platform dashboards.",
+      "designMdPath": "catalog/github/design.md"
+    },
+    {
+      "slug": "hashicorp",
+      "aliases": [],
+      "title": "HashiCorp",
+      "sourceUrl": "https://www.hashicorp.com/",
+      "category": "Backend, Database & DevOps",
+      "description": "Infrastructure system with black enterprise surfaces and per-product accent identities.",
+      "bestFor": "Cloud tooling, infrastructure products, multi-product docs, and enterprise platforms.",
+      "designMdPath": "catalog/hashicorp/design.md"
+    },
+    {
+      "slug": "hp",
+      "aliases": [],
+      "title": "HP",
+      "sourceUrl": "https://www.hp.com/",
+      "category": "Media & Consumer Tech",
+      "description": "PC and printer system with white canvas, HP blue CTAs, geometric type, and angular motifs.",
+      "bestFor": "Hardware commerce, support portals, enterprise product pages, and device catalogs.",
+      "designMdPath": "catalog/hp/design.md"
+    },
+    {
+      "slug": "ibm",
+      "aliases": [],
+      "title": "IBM",
+      "sourceUrl": "https://www.ibm.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Enterprise technology system grounded in Carbon patterns, IBM Plex type, and blue accents.",
+      "bestFor": "Enterprise SaaS, cloud platforms, technical content, and large-system dashboards.",
+      "designMdPath": "catalog/ibm/design.md"
+    },
+    {
+      "slug": "intercom",
+      "aliases": [],
+      "title": "Intercom",
+      "sourceUrl": "https://www.intercom.com/",
+      "category": "Productivity & SaaS",
+      "description": "Customer messaging system with cream surfaces, orange AI accents, and product-led cards.",
+      "bestFor": "Support tools, messaging products, AI assistants, and customer-service platforms.",
+      "designMdPath": "catalog/intercom/design.md"
+    },
+    {
+      "slug": "intuit",
+      "aliases": [],
+      "title": "Intuit",
+      "sourceUrl": "https://www.intuit.com/",
+      "category": "Local extras",
+      "description": "Financial product system with practical blue actions, trusted green accents, and utility panels.",
+      "bestFor": "SMB tools, fintech dashboards, support flows, and account setup.",
+      "designMdPath": "catalog/intuit/design.md"
+    },
+    {
+      "slug": "kraken",
+      "aliases": [],
+      "title": "Kraken",
+      "sourceUrl": "https://www.kraken.com/",
+      "category": "Fintech & Crypto",
+      "description": "Crypto trading system with dark data-dense surfaces, purple accents, and market UI patterns.",
+      "bestFor": "Trading platforms, crypto products, financial dashboards, and account flows.",
+      "designMdPath": "catalog/kraken/design.md"
+    },
+    {
+      "slug": "lamborghini",
+      "aliases": [],
+      "title": "Lamborghini",
+      "sourceUrl": "https://www.lamborghini.com/",
+      "category": "Automotive",
+      "description": "Luxury automotive system with black cathedral surfaces, gold accents, and custom display type.",
+      "bestFor": "Supercar launches, luxury galleries, immersive product pages, and prestige brands.",
+      "designMdPath": "catalog/lamborghini/design.md"
+    },
+    {
+      "slug": "linear.app",
+      "aliases": [
+        "linear"
+      ],
+      "title": "Linear",
+      "sourceUrl": "https://linear.app/",
+      "category": "Productivity & SaaS",
+      "description": "Issue-tracking system with minimal dark surfaces, precise spacing, and subtle purple accents.",
+      "bestFor": "Engineering workflows, project management, technical dashboards, and focused SaaS.",
+      "designMdPath": "catalog/linear.app/design.md"
+    },
+    {
+      "slug": "lovable",
+      "aliases": [],
+      "title": "Lovable",
+      "sourceUrl": "https://lovable.dev/",
+      "category": "Developer Tools & IDEs",
+      "description": "AI app-builder system with friendly gradients, playful developer surfaces, and soft product UI.",
+      "bestFor": "AI builders, prototyping tools, app generators, and friendly developer platforms.",
+      "designMdPath": "catalog/lovable/design.md"
+    },
+    {
+      "slug": "mastercard",
+      "aliases": [],
+      "title": "Mastercard",
+      "sourceUrl": "https://www.mastercard.com/",
+      "category": "Fintech & Crypto",
+      "description": "Payments-network system with warm cream canvas, orbital pill shapes, and editorial trust signals.",
+      "bestFor": "Financial networks, payment products, partner portals, and trust-building pages.",
+      "designMdPath": "catalog/mastercard/design.md"
+    },
+    {
+      "slug": "meta",
+      "aliases": [],
+      "title": "Meta",
+      "sourceUrl": "https://www.meta.com/",
+      "category": "E-commerce & Retail",
+      "description": "Consumer-tech retail system with product photography, binary surfaces, and Meta Blue CTAs.",
+      "bestFor": "Hardware stores, device configurators, product education, and consumer launches.",
+      "designMdPath": "catalog/meta/design.md"
+    },
+    {
+      "slug": "minimax",
+      "aliases": [],
+      "title": "Minimax",
+      "sourceUrl": "https://www.minimaxi.com/",
+      "category": "AI & LLM Platforms",
+      "description": "AI model provider system with stark white marketing, black CTAs, and vivid model cards.",
+      "bestFor": "Model providers, AI product catalogs, docs grids, and pricing pages.",
+      "designMdPath": "catalog/minimax/design.md"
+    },
+    {
+      "slug": "mintlify",
+      "aliases": [],
+      "title": "Mintlify",
+      "sourceUrl": "https://mintlify.com/",
+      "category": "Productivity & SaaS",
+      "description": "Documentation platform system with sky-gradient heroes, green accents, and dense docs layouts.",
+      "bestFor": "Docs platforms, developer portals, SDK sites, and technical content systems.",
+      "designMdPath": "catalog/mintlify/design.md"
+    },
+    {
+      "slug": "miro",
+      "aliases": [],
+      "title": "Miro",
+      "sourceUrl": "https://miro.com/",
+      "category": "Design & Creative Tools",
+      "description": "Visual collaboration system with canary yellow brand energy, sticky-note colors, and board mockups.",
+      "bestFor": "Whiteboards, collaboration tools, workshop products, and planning surfaces.",
+      "designMdPath": "catalog/miro/design.md"
+    },
+    {
+      "slug": "mistral.ai",
+      "aliases": [],
+      "title": "Mistral AI",
+      "sourceUrl": "https://mistral.ai/",
+      "category": "AI & LLM Platforms",
+      "description": "Open-weight AI system with engineered minimalism, purple tones, and precise technical surfaces.",
+      "bestFor": "Model labs, research products, technical docs, and AI platform pages.",
+      "designMdPath": "catalog/mistral.ai/design.md"
+    },
+    {
+      "slug": "mongodb",
+      "aliases": [],
+      "title": "MongoDB",
+      "sourceUrl": "https://www.mongodb.com/",
+      "category": "Backend, Database & DevOps",
+      "description": "Database system with dark teal hero bands, green CTAs, and documentation-rich product pages.",
+      "bestFor": "Database products, learning portals, pricing grids, and developer education.",
+      "designMdPath": "catalog/mongodb/design.md"
+    },
+    {
+      "slug": "nike",
+      "aliases": [],
+      "title": "Nike",
+      "sourceUrl": "https://www.nike.com/",
+      "category": "E-commerce & Retail",
+      "description": "Athletic retail system with monochrome UI, bold display type, and full-bleed photography.",
+      "bestFor": "Sports retail, lifestyle campaigns, product drops, and editorial commerce.",
+      "designMdPath": "catalog/nike/design.md"
+    },
+    {
+      "slug": "nintendo-2001",
+      "aliases": [],
+      "title": "Nintendo.com (2001)",
+      "sourceUrl": "https://web.archive.org/web/20010202062500/http://www.nintendo.com/",
+      "category": "Retro Web",
+      "description": "Y2K console-web system with beveled panels, glowing nav, box-art type, and circuit-board energy.",
+      "bestFor": "Retro UI, game-themed pages, nostalgia interfaces, and period web prototypes.",
+      "designMdPath": "catalog/nintendo-2001/design.md"
+    },
+    {
+      "slug": "notion",
+      "aliases": [],
+      "title": "Notion",
+      "sourceUrl": "https://www.notion.com/",
+      "category": "Productivity & SaaS",
+      "description": "Workspace system with warm minimalism, serif display moments, and soft document-like surfaces.",
+      "bestFor": "Knowledge bases, docs tools, workspace apps, and editorial product surfaces.",
+      "designMdPath": "catalog/notion/design.md"
+    },
+    {
+      "slug": "nvidia",
+      "aliases": [],
+      "title": "NVIDIA",
+      "sourceUrl": "https://www.nvidia.com/",
+      "category": "Media & Consumer Tech",
+      "description": "GPU computing system with green-black energy, technical content, and high-performance product pages.",
+      "bestFor": "AI hardware, compute platforms, technical product launches, and partner pages.",
+      "designMdPath": "catalog/nvidia/design.md"
+    },
+    {
+      "slug": "ollama",
+      "aliases": [],
+      "title": "Ollama",
+      "sourceUrl": "https://ollama.com/",
+      "category": "AI & LLM Platforms",
+      "description": "Local LLM system with terminal-first simplicity, monochrome surfaces, and developer utility.",
+      "bestFor": "Local AI tools, CLI products, developer onboarding, and minimal docs.",
+      "designMdPath": "catalog/ollama/design.md"
+    },
+    {
+      "slug": "opencode.ai",
+      "aliases": [],
+      "title": "OpenCode AI",
+      "sourceUrl": "https://opencode.ai/",
+      "category": "AI & LLM Platforms",
+      "description": "AI coding platform with developer-centric dark surfaces and code-first interaction patterns.",
+      "bestFor": "AI coding products, agent tools, IDE extensions, and technical launch pages.",
+      "designMdPath": "catalog/opencode.ai/design.md"
+    },
+    {
+      "slug": "pinterest",
+      "aliases": [],
+      "title": "Pinterest",
+      "sourceUrl": "https://www.pinterest.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Visual discovery system with red accents, image masonry, and content-first interaction patterns.",
+      "bestFor": "Discovery feeds, visual search, creator platforms, and inspiration products.",
+      "designMdPath": "catalog/pinterest/design.md"
+    },
+    {
+      "slug": "playstation",
+      "aliases": [],
+      "title": "PlayStation",
+      "sourceUrl": "https://www.playstation.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Gaming retail system with channel-style surfaces, cyan interaction, and product imagery.",
+      "bestFor": "Game stores, console pages, entertainment commerce, and immersive product hubs.",
+      "designMdPath": "catalog/playstation/design.md"
+    },
+    {
+      "slug": "posthog",
+      "aliases": [],
+      "title": "PostHog",
+      "sourceUrl": "https://posthog.com/",
+      "category": "Backend, Database & DevOps",
+      "description": "Product analytics system with playful branding, developer-friendly surfaces, and dark UI moments.",
+      "bestFor": "Analytics products, devtools, product-led docs, and feature comparison pages.",
+      "designMdPath": "catalog/posthog/design.md"
+    },
+    {
+      "slug": "raycast",
+      "aliases": [],
+      "title": "Raycast",
+      "sourceUrl": "https://www.raycast.com/",
+      "category": "Developer Tools & IDEs",
+      "description": "Productivity launcher system with sleek dark chrome, gradient accents, and keyboard-first UI.",
+      "bestFor": "Command palettes, productivity apps, extensions, and power-user tools.",
+      "designMdPath": "catalog/raycast/design.md"
+    },
+    {
+      "slug": "renault",
+      "aliases": [],
+      "title": "Renault",
+      "sourceUrl": "https://www.renault.com/",
+      "category": "Automotive",
+      "description": "French automotive system with vivid aurora gradients, proprietary type, and sharp buttons.",
+      "bestFor": "Automotive launches, EV pages, brand campaigns, and configurator surfaces.",
+      "designMdPath": "catalog/renault/design.md"
+    },
+    {
+      "slug": "replicate",
+      "aliases": [],
+      "title": "Replicate",
+      "sourceUrl": "https://replicate.com/",
+      "category": "AI & LLM Platforms",
+      "description": "ML API system with clean white canvas, code-forward examples, and model marketplace structure.",
+      "bestFor": "Model marketplaces, inference APIs, developer docs, and AI tooling.",
+      "designMdPath": "catalog/replicate/design.md"
+    },
+    {
+      "slug": "resend",
+      "aliases": [],
+      "title": "Resend",
+      "sourceUrl": "https://resend.com/",
+      "category": "Productivity & SaaS",
+      "description": "Email API system with minimal dark surfaces, monospace accents, and developer-grade restraint.",
+      "bestFor": "Email APIs, devtools, transactional products, and docs-led landing pages.",
+      "designMdPath": "catalog/resend/design.md"
+    },
+    {
+      "slug": "revolut",
+      "aliases": [],
+      "title": "Revolut",
+      "sourceUrl": "https://www.revolut.com/",
+      "category": "Fintech & Crypto",
+      "description": "Digital banking system with sleek dark surfaces, gradient cards, and fintech precision.",
+      "bestFor": "Banking apps, cards, consumer finance, and account onboarding.",
+      "designMdPath": "catalog/revolut/design.md"
+    },
+    {
+      "slug": "runwayml",
+      "aliases": [],
+      "title": "Runway",
+      "sourceUrl": "https://runwayml.com/",
+      "category": "AI & LLM Platforms",
+      "description": "AI creative-tools system with cinematic dark heroes, paper-white reading bands, and filmic pacing.",
+      "bestFor": "Creative AI tools, media platforms, video products, and editorial showcases.",
+      "designMdPath": "catalog/runwayml/design.md"
+    },
+    {
+      "slug": "sanity",
+      "aliases": [],
+      "title": "Sanity",
+      "sourceUrl": "https://www.sanity.io/",
+      "category": "Backend, Database & DevOps",
+      "description": "Headless CMS system with dark editorial marketing, mono technical labels, and coral CTAs.",
+      "bestFor": "CMS products, content platforms, developer docs, and editorial infrastructure.",
+      "designMdPath": "catalog/sanity/design.md"
+    },
+    {
+      "slug": "sentry",
+      "aliases": [],
+      "title": "Sentry",
+      "sourceUrl": "https://sentry.io/",
+      "category": "Backend, Database & DevOps",
+      "description": "Error monitoring system with dark dashboards, pink-purple accents, and data-dense observability UI.",
+      "bestFor": "Monitoring tools, observability dashboards, developer alerts, and incident workflows.",
+      "designMdPath": "catalog/sentry/design.md"
+    },
+    {
+      "slug": "shopify",
+      "aliases": [],
+      "title": "Shopify",
+      "sourceUrl": "https://www.shopify.com/",
+      "category": "E-commerce & Retail",
+      "description": "Commerce-platform system with dark cinematic sections, green accents, and confident merchant storytelling.",
+      "bestFor": "Commerce platforms, creator tools, marketplace onboarding, and merchant dashboards.",
+      "designMdPath": "catalog/shopify/design.md"
+    },
+    {
+      "slug": "slack",
+      "aliases": [],
+      "title": "Slack",
+      "sourceUrl": "https://slack.com/",
+      "category": "Tree-only upstream item",
+      "description": "Workplace messaging system with aubergine brand color, cream-lavender surfaces, and pill CTAs.",
+      "bestFor": "Team communication, collaboration tools, onboarding, and messaging products.",
+      "designMdPath": "catalog/slack/design.md"
+    },
+    {
+      "slug": "spacex",
+      "aliases": [],
+      "title": "SpaceX",
+      "sourceUrl": "https://www.spacex.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Space technology system with stark black-white contrast, full-bleed imagery, and mission tone.",
+      "bestFor": "Aerospace, mission pages, cinematic launches, and high-stakes technical brands.",
+      "designMdPath": "catalog/spacex/design.md"
+    },
+    {
+      "slug": "spotify",
+      "aliases": [],
+      "title": "Spotify",
+      "sourceUrl": "https://www.spotify.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Music streaming system with vivid green accents, dark surfaces, bold type, and album-art energy.",
+      "bestFor": "Music apps, media libraries, creator platforms, and entertainment dashboards.",
+      "designMdPath": "catalog/spotify/design.md"
+    },
+    {
+      "slug": "starbucks",
+      "aliases": [],
+      "title": "Starbucks",
+      "sourceUrl": "https://www.starbucks.com/",
+      "category": "E-commerce & Retail",
+      "description": "Coffee retail system with earth-green palette, warm cream surfaces, and proprietary sans typography.",
+      "bestFor": "Food retail, loyalty apps, store finders, and consumer promotion pages.",
+      "designMdPath": "catalog/starbucks/design.md"
+    },
+    {
+      "slug": "stripe",
+      "aliases": [],
+      "title": "Stripe",
+      "sourceUrl": "https://stripe.com/",
+      "category": "Fintech & Crypto",
+      "description": "Payment infrastructure with crisp typography, restrained surfaces, and violet conversion moments.",
+      "bestFor": "API docs, fintech onboarding, checkout flows, and B2B SaaS.",
+      "designMdPath": "catalog/stripe/design.md"
+    },
+    {
+      "slug": "supabase",
+      "aliases": [],
+      "title": "Supabase",
+      "sourceUrl": "https://supabase.com/",
+      "category": "Backend, Database & DevOps",
+      "description": "Open-source backend system with dark emerald surfaces, code panels, and developer-first hierarchy.",
+      "bestFor": "Database tools, API dashboards, developer docs, and backend platforms.",
+      "designMdPath": "catalog/supabase/design.md"
+    },
+    {
+      "slug": "superhuman",
+      "aliases": [],
+      "title": "Superhuman",
+      "sourceUrl": "https://superhuman.com/",
+      "category": "Developer Tools & IDEs",
+      "description": "Fast email system with premium dark hero surfaces, purple glow, and keyboard-first positioning.",
+      "bestFor": "Email products, productivity SaaS, power-user tools, and premium onboarding.",
+      "designMdPath": "catalog/superhuman/design.md"
+    },
+    {
+      "slug": "tesla",
+      "aliases": [],
+      "title": "Tesla",
+      "sourceUrl": "https://www.tesla.com/",
+      "category": "Automotive",
+      "description": "Electric vehicle system with radical subtraction, cinematic photography, and minimal chrome.",
+      "bestFor": "EV pages, configurators, product launches, and direct-to-consumer commerce.",
+      "designMdPath": "catalog/tesla/design.md"
+    },
+    {
+      "slug": "theverge",
+      "aliases": [],
+      "title": "The Verge",
+      "sourceUrl": "https://www.theverge.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Tech editorial system with acid accents, bold display type, and dense media layouts.",
+      "bestFor": "Editorial media, tech news, magazine surfaces, and content-rich homepages.",
+      "designMdPath": "catalog/theverge/design.md"
+    },
+    {
+      "slug": "together.ai",
+      "aliases": [],
+      "title": "Together AI",
+      "sourceUrl": "https://www.together.ai/",
+      "category": "AI & LLM Platforms",
+      "description": "Open-source AI infrastructure system with dark hero bands, gradients, and technical docs structure.",
+      "bestFor": "AI infrastructure, model APIs, research pages, and developer platforms.",
+      "designMdPath": "catalog/together.ai/design.md"
+    },
+    {
+      "slug": "uber",
+      "aliases": [],
+      "title": "Uber",
+      "sourceUrl": "https://www.uber.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Mobility system with black-white restraint, tight type, urban imagery, and pill controls.",
+      "bestFor": "Mobility apps, marketplace onboarding, logistics tools, and urban services.",
+      "designMdPath": "catalog/uber/design.md"
+    },
+    {
+      "slug": "vercel",
+      "aliases": [],
+      "title": "Vercel",
+      "sourceUrl": "https://vercel.com/",
+      "category": "Developer Tools & IDEs",
+      "description": "Frontend platform system with black-white precision, Geist typography, and code-forward product surfaces.",
+      "bestFor": "Developer platforms, docs, deployment flows, and infrastructure dashboards.",
+      "designMdPath": "catalog/vercel/design.md"
+    },
+    {
+      "slug": "vodafone",
+      "aliases": [],
+      "title": "Vodafone",
+      "sourceUrl": "https://www.vodafone.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Telecom system with monumental uppercase display, scarlet CTAs, and chaptered content bands.",
+      "bestFor": "Telecom products, enterprise services, plan pages, and consumer campaigns.",
+      "designMdPath": "catalog/vodafone/design.md"
+    },
+    {
+      "slug": "voltagent",
+      "aliases": [],
+      "title": "VoltAgent",
+      "sourceUrl": "https://voltagent.dev/",
+      "category": "AI & LLM Platforms",
+      "description": "AI agent framework system with void-black canvas, emerald accent, and terminal-native product UI.",
+      "bestFor": "Agent frameworks, developer tools, observability, and technical docs.",
+      "designMdPath": "catalog/voltagent/design.md"
+    },
+    {
+      "slug": "walmart",
+      "aliases": [],
+      "title": "Walmart",
+      "sourceUrl": "https://www.walmart.com/",
+      "category": "Local extras",
+      "description": "Retail system with blue commerce chrome, yellow deal signals, and dense product grids.",
+      "bestFor": "Retail search, marketplace grids, inventory views, and promotion-heavy flows.",
+      "designMdPath": "catalog/walmart/design.md"
+    },
+    {
+      "slug": "warp",
+      "aliases": [],
+      "title": "Warp",
+      "sourceUrl": "https://www.warp.dev/",
+      "category": "Developer Tools & IDEs",
+      "description": "Terminal system with warm dark surfaces, understated CTAs, and dense command-line mockups.",
+      "bestFor": "Terminal apps, command tools, developer productivity, and AI coding workflows.",
+      "designMdPath": "catalog/warp/design.md"
+    },
+    {
+      "slug": "webflow",
+      "aliases": [],
+      "title": "Webflow",
+      "sourceUrl": "https://webflow.com/",
+      "category": "Design & Creative Tools",
+      "description": "Visual web-builder system with black-white contrast and multi-color product-category accents.",
+      "bestFor": "Website builders, design platforms, no-code products, and launch pages.",
+      "designMdPath": "catalog/webflow/design.md"
+    },
+    {
+      "slug": "wired",
+      "aliases": [],
+      "title": "WIRED",
+      "sourceUrl": "https://www.wired.com/",
+      "category": "Media & Consumer Tech",
+      "description": "Tech magazine system with paper-white density, custom editorial type, and ink-blue links.",
+      "bestFor": "Editorial media, magazine layouts, article pages, and content subscriptions.",
+      "designMdPath": "catalog/wired/design.md"
+    },
+    {
+      "slug": "wise",
+      "aliases": [],
+      "title": "Wise",
+      "sourceUrl": "https://wise.com/",
+      "category": "Fintech & Crypto",
+      "description": "Money-transfer system with lime-green accents, heavy display type, and sage-tinted surfaces.",
+      "bestFor": "Fintech products, international payments, consumer banking, and pricing explainers.",
+      "designMdPath": "catalog/wise/design.md"
+    },
+    {
+      "slug": "x.ai",
+      "aliases": [],
+      "title": "xAI",
+      "sourceUrl": "https://x.ai/",
+      "category": "AI & LLM Platforms",
+      "description": "Frontier AI system with near-black canvas, white pill controls, and cosmic engineering restraint.",
+      "bestFor": "AI labs, research launches, model products, and stark technical brands.",
+      "designMdPath": "catalog/x.ai/design.md"
+    },
+    {
+      "slug": "zapier",
+      "aliases": [],
+      "title": "Zapier",
+      "sourceUrl": "https://zapier.com/",
+      "category": "Productivity & SaaS",
+      "description": "Automation system with warm cream neutrals, orange CTAs, and friendly workflow storytelling.",
+      "bestFor": "Automation platforms, workflow builders, integrations, and SMB productivity tools.",
+      "designMdPath": "catalog/zapier/design.md"
+    }
+  ]
+}

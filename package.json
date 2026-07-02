@@ -1,0 +1,22 @@
+{
+  "name": "free-design-md-catalog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Public CLI and curated design.md catalog for Free design.md",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --dir packages/cli build",
+    "test": "pnpm --dir packages/cli test",
+    "validate:catalog": "node scripts/validate-catalog.mjs",
+    "build:catalog-index": "node scripts/build-catalog-index.mjs",
+    "build:readme": "node scripts/build-readme-catalog.mjs",
+    "check:generated": "pnpm build:catalog-index && pnpm build:readme && git diff --exit-code catalog/index.json README.md",
+    "pack:cli": "pnpm --dir packages/cli pack"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}

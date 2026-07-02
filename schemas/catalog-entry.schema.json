@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zuchka/free-design-md-catalog/schemas/catalog-entry.schema.json",
+  "title": "Free design.md catalog entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "aliases",
+    "title",
+    "sourceUrl",
+    "category",
+    "description",
+    "bestFor"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_.-]{1,79}$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9_.-]{1,79}$"
+      },
+      "uniqueItems": true
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bestFor": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "expo",
+  "aliases": [],
+  "title": "Expo",
+  "sourceUrl": "https://expo.dev/",
+  "category": "Developer Tools & IDEs",
+  "description": "React Native platform system with white canvas, code surfaces, and device mockup hero moments.",
+  "bestFor": "Mobile developer tools, SDK docs, framework pages, and launch sites."
+}

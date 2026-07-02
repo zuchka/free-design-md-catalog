@@ -1,0 +1,9 @@
+{
+  "slug": "ollama",
+  "aliases": [],
+  "title": "Ollama",
+  "sourceUrl": "https://ollama.com/",
+  "category": "AI & LLM Platforms",
+  "description": "Local LLM system with terminal-first simplicity, monochrome surfaces, and developer utility.",
+  "bestFor": "Local AI tools, CLI products, developer onboarding, and minimal docs."
+}

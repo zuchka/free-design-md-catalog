@@ -1,0 +1,9 @@
+{
+  "slug": "replicate",
+  "aliases": [],
+  "title": "Replicate",
+  "sourceUrl": "https://replicate.com/",
+  "category": "AI & LLM Platforms",
+  "description": "ML API system with clean white canvas, code-forward examples, and model marketplace structure.",
+  "bestFor": "Model marketplaces, inference APIs, developer docs, and AI tooling."
+}

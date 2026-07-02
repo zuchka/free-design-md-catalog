@@ -1,0 +1,9 @@
+{
+  "slug": "github",
+  "aliases": [],
+  "title": "GitHub",
+  "sourceUrl": "https://github.com/features",
+  "category": "Local extras",
+  "description": "Developer platform system with dark code surfaces, Octicon-style UI, and collaboration patterns.",
+  "bestFor": "Developer workflows, repositories, code review, and platform dashboards."
+}
