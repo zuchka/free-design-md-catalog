@@ -1,15 +1,19 @@
 # Contributing
 
-This catalog accepts generated `design.md` artifacts for public websites.
+This repo accepts fixes to the public CLI and docs. The generated catalog is a mirror of the private Free design.md app catalog.
 
 ## Add Or Update A Design
 
-1. Add or edit `catalog/<slug>/metadata.json`.
-2. Add or edit `catalog/<slug>/design.md`.
-3. Run:
+Do not hand-edit `catalog/<slug>/metadata.json`, `catalog/<slug>/design.md`, or `catalog/index.json` for routine catalog changes.
+
+The proper flow is:
+
+1. Add or regenerate the design in the private `free-design-md` app repo.
+2. Run `pnpm export:public-catalog` from that private repo.
+3. Commit the resulting public repo changes.
+4. Run:
 
 ```bash
-pnpm build:catalog-index
 pnpm validate:catalog
 pnpm test
 ```

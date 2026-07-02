@@ -1,8 +1,8 @@
 # Free design.md Catalog
 
-Public CLI and curated `design.md` catalog for [Free design.md](https://freedesign.md).
+Public CLI and exported curated `design.md` catalog for [Free design.md](https://freedesign.md).
 
-This repo is the linkable public surface: browse curated artifacts, install the CLI, and contribute new `design.md` examples. The hosted application source stays private in `free-design-md`.
+This repo is the linkable public surface: browse curated artifacts and install the CLI. The hosted application source stays private in `free-design-md`, which remains the source of truth for curated examples.
 
 ## CLI
 
@@ -21,6 +21,8 @@ The catalog lives in [`catalog/`](./catalog):
 - [`catalog/index.json`](./catalog/index.json) lists every curated artifact.
 - `catalog/<slug>/metadata.json` stores public metadata.
 - `catalog/<slug>/design.md` stores the generated design.md artifact.
+
+Catalog files are exported from the private app with `pnpm export:public-catalog`.
 
 Brand names and marks identify source websites only. This repo is not affiliated with or endorsed by the source brands.
 

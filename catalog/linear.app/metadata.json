@@ -1,6 +1,8 @@
 {
   "slug": "linear.app",
-  "aliases": ["linear"],
+  "aliases": [
+    "linear"
+  ],
   "title": "Linear",
   "sourceUrl": "https://linear.app/",
   "category": "Productivity & SaaS",
