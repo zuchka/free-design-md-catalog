@@ -1,6 +1,6 @@
 {
   "name": "free-design-md",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CLI for browsing and downloading public design.md files from Free design.md",
   "type": "module",
   "bin": {
